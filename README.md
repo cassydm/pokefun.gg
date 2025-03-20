@@ -17,18 +17,18 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # Welcome to pokefun.gg  
 ### Created and developed by cassydm  
-    [Email][cassydmiller@yahoo.com]
-    [GitHub][https://github.com/cassydm]
-    [Linkedin][https://www.linkedin.com/in/cassydm/]
+[Email](cassydmiller@yahoo.com)
+[GitHub](https://github.com/cassydm)
+[Linkedin](https://www.linkedin.com/in/cassydm/)
 
 
-This app is in demo with several future plans in development. 
+*This app is in demo with several future plans in development.*  
 
 ## Overview  
 
 **Pokefun.gg (demo)** is an app that lets you search for a specific poke's info.  
 
-The application is stored on **[HuggingFace][https://huggingface.co/spaces/cassydm/pokefun.gg]**  
+The application is stored on **[HuggingFace](https://huggingface.co/spaces/cassydm/pokefun.gg)**  
 
 The app.py file holds all code information for the gradio application.  
 

@@ -113,6 +113,7 @@ def display_poke_info(poke_name):
     if not poke_name:
         return "Poke not found!"
     
+    
     poke_data = get_poke_data(poke_name)
     species_data = get_species_data(poke_name)
     
@@ -188,7 +189,7 @@ with gr.Blocks() as demo:
     # Output section with info and image side by side
     with gr.Row():  
         info_output = gr.Textbox(label="Poke Info", lines=15)
-        image_output = gr.Image(label="Poke Sprite")
+        image_output = gr.Image(label="Poke Sprite", height=650)
 
     # Connect the buttons to the functions
     submit_button.click(
