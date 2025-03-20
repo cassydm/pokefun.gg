@@ -175,6 +175,7 @@ def pokefun(poke_name):
 # Create Gradio app with info and image
 with gr.Blocks() as demo:
     gr.Markdown("# Welcome to Pokefun.gg (demo)")
+    gr.Markdown("## Created and developed by Cassy Miller.<br>version 0.0.1<br>")
     gr.Markdown("Enter the name of a Poke to see its info and sprite!")
     
     # Input section
