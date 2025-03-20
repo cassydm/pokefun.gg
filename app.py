@@ -176,8 +176,9 @@ def pokefun(poke_name):
 # Create Gradio app with info and image
 with gr.Blocks() as demo:
     gr.Markdown("# Welcome to Pokefun.gg (demo)")
-    gr.Markdown("## Created and developed by Cassy Miller.<br>version 0.0.1<br>")
-    gr.Markdown("Enter the name of a Poke to see its info and sprite!")
+    gr.Markdown("## Created and developed by Cassy Miller")
+    gr.Markdown("#### version 0.0.1")
+    gr.Markdown("## Enter the name of a Poke to see its info and sprite!")
     
     # Input section
     with gr.Row():
@@ -189,7 +190,7 @@ with gr.Blocks() as demo:
     # Output section with info and image side by side
     with gr.Row():  
         info_output = gr.Textbox(label="Poke Info", lines=15)
-        image_output = gr.Image(label="Poke Sprite", height=350)
+        image_output = gr.Image(label="Poke Sprite", height=355)
 
     # Connect the buttons to the functions
     submit_button.click(
