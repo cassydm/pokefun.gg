@@ -183,13 +183,13 @@ with gr.Blocks() as demo:
     with gr.Row():
         pokemon_name_or_id = gr.Textbox(label ="Enter Poke name.", placeholder = "ex. Umbreon")
         with gr.Column():
-            submit_button = gr.Button("go!")
+            submit_button = gr.Button("Go!")
             random_button = gr.Button("Random Poke")
 
     # Output section with info and image side by side
     with gr.Row():  
         info_output = gr.Textbox(label="Poke Info", lines=15)
-        image_output = gr.Image(label="Poke Sprite", height=650)
+        image_output = gr.Image(label="Poke Sprite", height=350)
 
     # Connect the buttons to the functions
     submit_button.click(
