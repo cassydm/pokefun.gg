@@ -1,8 +1,8 @@
 ---
 title: Pokefun.gg
 emoji: 🔥
-colorFrom: #FF0000
-colorTo: #f76363
+colorFrom: red
+colorTo: red
 sdk: gradio
 sdk_version: 5.22.0
 app_file: app.py
