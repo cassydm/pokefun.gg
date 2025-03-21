@@ -1,12 +1,12 @@
 ---
 title: Pokefun.gg
 emoji: 🔥
-colorFrom: red
-colorTo: indigo
+colorFrom: #FF0000
+colorTo: #f76363
 sdk: gradio
 sdk_version: 5.22.0
 app_file: app.py
-pinned: false
+pinned: true
 license: wtfpl
 short_description: Gradio app that returns Poke info and sprite.
 ---
