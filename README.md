@@ -7,7 +7,7 @@ sdk: gradio
 sdk_version: 5.22.0
 app_file: app.py
 pinned: true
-license: wtfpl
+license: mit
 short_description: Gradio app that returns Poke info and sprite.
 ---
 
