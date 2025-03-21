@@ -177,7 +177,7 @@ def pokefun(poke_name):
 with gr.Blocks() as demo:
     gr.Markdown("# Welcome to Pokefun.gg (demo)")
     gr.Markdown("## Created and developed by Cassy Miller")
-    gr.Markdown("#### version 0.0.1")
+    gr.Markdown("_version 0.0.1_")
     gr.Markdown("## Enter the name of a Poke to see its info and sprite!")
     
     # Input section
