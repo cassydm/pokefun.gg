@@ -2,7 +2,7 @@
 *version 0.0.1*
 
 Base version release.  
-> Support for poke lookup added, using either poke name (ex. umbreon, slither-wing) or by number.  
-> Support for random search, to look up a random poke.  
-> Returns basic poke info and its sprite.
+- Support for poke lookup added, using either poke name (ex. umbreon, slither-wing) or by number.  
+- Support for random search, to look up a random poke.  
+- Returns basic poke info and its sprite.
 --------------------------------------
