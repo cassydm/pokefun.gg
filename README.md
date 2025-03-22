@@ -17,9 +17,9 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # Welcome to pokefun.gg  
 ### Created and developed by cassydm  
-<img src = "https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg" alt = "emaillogo" width = 20> [Email](mailto:cassydmiller@yahoo.com) 
+<img src = "https://pngimg.com/uploads/at_sign/small/at_sign_PNG86.png" alt = "emaillogo" width = 20> [Email](mailto:cassydmiller@yahoo.com) 
 <img src = "https://cdn-icons-png.flaticon.com/512/25/25231.png" alt = "gitlogo" width = 20> [GitHub](https://github.com/cassydm) 
-<img src = "https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt = "linkedinlogo" width = 20> [Linkedin](https://www.linkedin.com/in/cassydm/) 
+<img src = "https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt = "linkedinlogo" width = 30> [Linkedin](https://www.linkedin.com/in/cassydm/) 
 
 
 *This app is in demo version 0.0.1 with several future plans in development.*  
