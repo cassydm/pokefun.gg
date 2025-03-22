@@ -17,9 +17,9 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 
 # Welcome to pokefun.gg  
 ### Created and developed by cassydm  
-[Email](cassydmiller@yahoo.com)
-[GitHub](https://github.com/cassydm)
-[Linkedin](https://www.linkedin.com/in/cassydm/)
+[Email](mailto:cassydmiller@yahoo.com)  
+![gitlogo](https://cdn-icons-png.flaticon.com/512/25/25231.png) [GitHub](https://github.com/cassydm)  
+![linkedinlogo](https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png)[Linkedin](https://www.linkedin.com/in/cassydm/)  
 
 
 *This app is in demo with several future plans in development.*  

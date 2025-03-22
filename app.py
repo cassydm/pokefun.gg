@@ -172,25 +172,45 @@ def pokefun(poke_name):
 
     return info, img
 
+# Gradio theme
+theme = gr.themes.Soft(
+    primary_hue="red",
+    secondary_hue="red",
+    neutral_hue="stone",
+    text_size="lg",
+).set(
+    border_color_accent_subdued='*neutral_200',
+    button_small_text_weight='700',
+    button_primary_background_fill_hover='*primary_100',
+    button_primary_border_color_hover='*background_fill_primary',
+    button_primary_border_color_hover_dark='*secondary_800',
+    button_primary_shadow='*shadow_inset',
+    button_secondary_background_fill_hover='*secondary_700'
+)
+
 
 # Create Gradio app with info and image
-with gr.Blocks() as demo:
-    gr.Markdown("# Welcome to Pokefun.gg (demo)")
-    gr.Markdown("## Created and developed by Cassy Miller")
-    gr.Markdown("_version 0.0.1_")
-    gr.Markdown("## Enter the name of a Poke to see its info and sprite!")
-    
+with gr.Blocks(theme = theme) as demo:
+    with gr.Column():
+        gr.Markdown("# Welcome to Pokefun.gg (demo)")    
+        gr.Markdown("### Created and developed by Cassy Miller")
+        gr.Markdown()
+        with gr.Row():
+            gr.Markdown("**Instructions:**<br>Enter a poke you would like to search and press go.<br>Enter name (ex. umbreon | sliter-wing) or number. <br>For a random poke, press the random button. <br><br>Note that occasionally errors with the API/HF do occur, try pressing the buttons again or come back later. ")
+            gr.Markdown("              ")
+            gr.Markdown("![lux_ball](https://www.serebii.net/itemdex/sprites/sv/luxuryball.png)")
+
     # Input section
     with gr.Row():
-        pokemon_name_or_id = gr.Textbox(label ="Enter Poke name.", placeholder = "ex. Umbreon")
+        pokemon_name_or_id = gr.Textbox(label ="Enter Poke name:", placeholder = "ex. Umbreon")
         with gr.Column():
             submit_button = gr.Button("Go!")
             random_button = gr.Button("Random Poke")
 
     # Output section with info and image side by side
     with gr.Row():  
-        info_output = gr.Textbox(label="Poke Info", lines=15)
-        image_output = gr.Image(label="Poke Sprite", height=355)
+        info_output = gr.Textbox(label="Poke Info", lines=14)
+        image_output = gr.Image(label="Poke Sprite", height=393.5)
 
     # Connect the buttons to the functions
     submit_button.click(
@@ -203,6 +223,7 @@ with gr.Blocks() as demo:
         inputs=[],
         outputs=[info_output, image_output]
     )
-
+    gr.Markdown("version _0.0.1_")
+    gr.Markdown("[GitHub](https://github.com/cassydm/pokefun.gg)")
 # Launch the app
 demo.launch()
